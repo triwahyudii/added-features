@@ -30,6 +30,8 @@ const Shoes = () => {
             <h2>{shoe.model}</h2>
             <p>{shoe.description}</p>
             <span>{shoe.price}</span>
+            <button className='delete'>Delete</button>
+            <button className='update'>Update</button>
           </div>
         ))}
       </div>
